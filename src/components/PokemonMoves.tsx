@@ -5,8 +5,7 @@ interface IPokemonMoves {
   pokemonMoves?: IMoves[];
 }
 
-export const PokemonMoves: FC<IPokemonMoves> = ({ pokemonMoves }) => {
-  return (
+export const PokemonMoves: FC<IPokemonMoves> = ({ pokemonMoves }) => (
     <div>
       <h1 className="text-4xl text-center">Moves</h1>
 
@@ -21,4 +20,3 @@ export const PokemonMoves: FC<IPokemonMoves> = ({ pokemonMoves }) => {
       </div>
     </div>
   );
-};

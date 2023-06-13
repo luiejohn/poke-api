@@ -8,8 +8,7 @@ interface IProps {
   };
 }
 
-export const PokemonCardDetails: FC<IProps> = ({ id, pokemon }) => {
-  return (
+export const PokemonCardDetails: FC<IProps> = ({ id, pokemon }) => (
     <div className="flex justify-center flex-col items-center bg-[#fff] p-4">
       <div>
         <img
@@ -28,4 +27,3 @@ export const PokemonCardDetails: FC<IProps> = ({ id, pokemon }) => {
       </div>
     </div>
   );
-};

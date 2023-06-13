@@ -1,5 +1,4 @@
-export const Loader = () => {
-  return (
+export const Loader = () => (
     <div role="status">
       <svg
         aria-hidden="true"
@@ -20,4 +19,3 @@ export const Loader = () => {
       <span className="sr-only">Loading...</span>
     </div>
   );
-};
